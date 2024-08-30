@@ -1,0 +1,68 @@
+/* Reset margin and padding for a consistent look */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    background-color: #f0f4f8; /* Soft light gray background */
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Dark text color for readability */
+    text-align: center;
+}
+
+/* Styling for the main heading */
+h4 {
+    margin: 2rem 0;
+    color: #4a90e2; /* Blue color for the heading */
+    font-size: 1.5rem;
+}
+
+/* Container styling for buttons and additional text */
+.tic-tac-toe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+/* Button styling */
+button {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    color: #ffffff; /* White text */
+    font-weight: bold;
+}
+
+/* Button colors */
+#game1 {
+    background-color: #4caf50; /* Green background for Tic-Tac-Toe */
+}
+
+#game2 {
+    background-color: #f44336; /* Red background for Stone-Paper-Scissors */
+}
+
+#game3 {
+    background-color: #2196f3; /* Blue background for Currency Converter */
+}
+
+/* Button hover effect */
+button:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+/* Styling for the secondary heading */
+h2 {
+    margin-top: 2rem;
+    color: #888; /* Light gray color for the text */
+    font-size: 1.25rem;
+}
